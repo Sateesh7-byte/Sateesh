@@ -1,0 +1,227 @@
+/* ACTIVITIES SECTION */
+#activities {
+  padding: 80px 20px;
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 60px;
+  letter-spacing: 1px;
+}
+
+/* CONTAINER */
+.activities-container {
+  max-width: 800px;
+  margin: auto;
+  border-left: 3px solid #38bdf8;
+  padding-left: 40px;
+}
+
+/* CARD */
+.activity-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px 30px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: translateX(6px);
+}
+
+/* DOT */
+.activity-card .dot {
+  position: absolute;
+  left: -52px;
+  top: 30px;
+  width: 14px;
+  height: 14px;
+  background: #38bdf8;
+  border-radius: 50%;
+}
+
+/* TEXT */
+.activity-card h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.activity-card .org {
+  color: #94a3b8;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.activity-card .role {
+    font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.activity-card .year {
+  font-size: 13px;
+  color: #cbd5f5;
+}
+
+/* =================================================
+   GLOBAL RESPONSIVE FIX – SATEESH PORTFOLIO
+   Tablets: 1024px | Mobiles: 768px
+================================================= */
+
+/* GLOBAL RESET */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* =========================
+   TABLETS (max-width: 1024px)
+========================= */
+@media (max-width: 1024px) {
+
+  section {
+    padding: 80px 6%;
+  }
+
+  /* HOME */
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-content {
+    max-width: 100%;
+  }
+
+  .home-img {
+    margin-top: 30px;
+  }
+
+  .home-img img {
+    width: 260px;
+    height: auto;
+  }
+
+  /* EDUCATION */
+  .edu-card {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .edu-year {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* EXPERIENCE */
+  .exp-card {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .exp-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* PROJECTS */
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+
+  /* INTERNSHIP */
+  .internship-card {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .internship-images img {
+    width: 100%;
+  }
+}
+
+/* =========================
+   MOBILES (max-width: 768px)
+========================= */
+@media (max-width: 768px) {
+
+  section {
+    padding: 70px 5%;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* NAVBAR */
+  header {
+    padding: 15px 5%;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  /* HOME */
+  .home {
+    flex-direction: column;
+  }
+
+  .home-img img {
+    width: 220px;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  /* SKILLS */
+  .skills-matrix {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* ACTIVITIES */
+  .activities-container {
+    padding-left: 10px;
+  }
+
+  /* CONTACT */
+  .contact-card {
+    width: 100%;
+  }
+
+  .contact-card form input,
+  .contact-card form textarea,
+  .contact-card form button {
+    width: 100%;
+  }
+}

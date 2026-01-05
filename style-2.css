@@ -1,0 +1,116 @@
+/* Educational Page..!!!!! */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: "Oswald", sans-serif;  
+}
+
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: white;
+    --main-color: #00ffee;
+} */
+
+.heading {
+    font-style: italic;
+    font-size: 6rem;
+    text-align: center;
+    margin: 10rem 0;
+}
+
+/* ==============================
+   EDUCATION SECTION
+============================== */
+
+#education {
+  background: #0f172a;
+  padding: 90px 20px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+
+    font-size: 6rem;
+    /* text-align: center; */
+    /* margin: 10rem 0; */
+}
+
+/* TITLE */
+.edu-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 5px;
+  padding: 60px;
+  letter-spacing: 1px;
+}
+
+/* CONTAINER */
+.edu-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* CARD */
+.edu-card {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(49, 8, 8, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.edu-card:hover {
+  transform: translateX(8px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+}
+
+/* YEAR BLOCK */
+.edu-year {
+  min-width: 160px;
+  background: linear-gradient(180deg, #2563eb, #38bdf8);
+  text-align: center;
+  padding: 35px 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* CONTENT */
+.edu-content {
+  padding: 30px 35px;
+}
+
+.edu-content h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.college {
+  color: #cbd5f5;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+/* GRADE BADGE */
+.grade {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.grade.highlight {
+  background: #22c55e;
+  color: #022c22;
+  font-weight: 600;
+}
+
+

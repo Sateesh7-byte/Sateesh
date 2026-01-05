@@ -1,0 +1,70 @@
+/* ================================
+   INTERNSHIP SECTION
+================================ */
+
+.internship-section {
+  padding: 80px 10%;
+  background: #0f172a;
+}
+
+/* Section Title */
+.internship-section .section-title {
+  text-align: center;
+  font-size: 46px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+/* Main Card */
+.internship-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/* LEFT CONTENT */
+.internship-content {
+  flex: 1;
+}
+
+.internship-content h3 {
+  font-size: 26px;
+  color: #00f0ff;
+  margin-bottom: 15px;
+}
+
+.internship-content p {
+    justify-content: baseline;
+  font-size: 16px;
+  color: #dcdcdc;
+  line-height: 2.4;
+  max-width: 650px;
+}
+
+/* RIGHT IMAGES */
+.internship-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.internship-images img {
+  width: 260px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid #00f0ff;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.internship-images img:hover {
+  transform: scale(1.05);
+}
+
+/* ================================
+   MOBILE RESPONSIVE
+================================ */
+
+
